@@ -1,0 +1,9 @@
+:root{
+    --primary-color: #4B5563;
+}
+.navbar ul, a{
+   text-decoration: none;
+   list-style: none;
+   display: block;
+   
+}

@@ -17,9 +17,15 @@ body{
 .nav-list{
     text-align: right;
 }
+.active-link{
+    font-weight: bold;
+}
 li{
     display: inline-block;
-    
+}
+.uday{
+    padding: 0rem;
+    font-weight: bold;
 }
 
 a{
@@ -56,17 +62,48 @@ a{
     text-align: center;
     padding: 2rem;
 }
+.project-btn{
+    border-radius: 1rem;
+    background-color: var(--main-color);
+}
 .blog{
     text-align: center;
     padding: 2rem;
 }
+.blog-btn{
+    border: 1px solid var(--main-color);
+    border-radius: 1rem;
+    color: var(--main-color);
+}
 .footer {
     background-color: var(--main-color);
     text-align: center;
-    padding: 2rem;
+    padding: 3rem;
     border-top-right-radius: 1rem;
 }
 .footer-header{
     color: white;
     padding-bottom: 1.3rem;
+}
+
+.projects-list{
+
+}
+.project-one{
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 1rem;
+    
+}
+.main-link{
+    background-color: var(--main-color);
+    border-radius: 1rem; 
+}
+.secondary-link{
+    border: 2px solid var(--main-color);
+    border-radius: 1rem;
+    color: var(--main-color);
+}
+.links{
+    padding: 1rem 1rem 1rem 0rem;
 }

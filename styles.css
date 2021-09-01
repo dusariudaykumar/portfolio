@@ -1,120 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-:root{
-    --primary-color: #4B5563;
-    --main-color:#60A5FA;
-    --off-white-color:#f3f4f6;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+:root {
+  --primary-color: #4b5563;
+  --main-color: #60a5fa;
+  --off-white-color: #f3f4f6;
 }
-*{
+/* *{
     margin: 0;
     border: 0;
-}
-body{
-    font-family: 'Montserrat', sans-serif; 
-}
-
-.navbar{
-    background-color: var(--main-color);
-    color: white;
-    padding: 1rem 1rem ;
-    border-bottom-left-radius: 1rem;
-}
-.nav-list{
-    text-align: right;
-}
-.active-link{
-    font-weight: bold;
-}
-li{
-    display: inline-block;
-}
-.uday{
-    padding: 0rem;
-    font-weight: bold;
+} */
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-a{
-    text-decoration: none;
-    padding: 0.5rem 1rem ;
-    color: white;
+.navbar {
+  background-color: var(--main-color);
+  color: white;
+  padding: 1rem 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.nav-list {
+  text-align: right;
+}
+.active-link {
+  font-weight: bold;
+}
+li {
+  display: inline-block;
+}
+.uday {
+  padding: 0rem;
+  font-weight: bold;
 }
 
-.hero{
-    max-width: 600px;
-    margin: auto;
-    padding: 1rem 0rem;
-    text-align: center;
+a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: white;
 }
-.hero-image{
-    max-width: 80%;
-    width: 350px;
-    display: block;
-    margin: auto;
+
+.hero {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem 0rem;
+  text-align: center;
 }
-.container{
-    max-width: 600px;
-    margin: auto;
+.hero-image {
+  max-width: 80%;
+  width: 350px;
+  display: block;
+  margin: auto;
 }
-.tech{
-    text-align: center;
-    padding: 2rem;
-   
+.container {
+  max-width: 600px;
+  margin: auto;
 }
-.ow{
-    background-color: var(--off-white-color);
+.tech {
+  text-align: center;
+  padding: 2rem;
 }
-.project{
-    text-align: center;
-    padding: 2rem;
+.ow {
+  background-color: var(--off-white-color);
 }
-.project-btn{
-    border-radius: 1rem;
-    background-color: var(--main-color);
+.project {
+  text-align: center;
+  padding: 2rem;
 }
-.blog{
-    text-align: center;
-    padding: 2rem;
+.project-btn {
+  border-radius: 1rem;
+  background-color: var(--main-color);
 }
-.blog-btn{
-    border: 1px solid var(--main-color);
-    border-radius: 1rem;
-    color: var(--main-color);
+.blog {
+  text-align: center;
+  padding: 2rem;
+}
+.blog-btn {
+  border: 1px solid var(--main-color);
+  border-radius: 1rem;
+  color: var(--main-color);
+}
+.project-two {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .footer {
-    background-color: var(--main-color);
-    text-align: center;
-    padding: 3rem;
-    border-top-right-radius: 1rem;
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: var(--main-color);
+  width: 100%;
+  border-top-left-radius: 1rem;
 }
-.footer-header{
-    color: white;
-    padding-bottom: 1.3rem;
-    font-weight: bold;
+.ul,
+.li {
+  display: inline;
+  padding-left: 0.5rem;
+}
+.icons {
+  width: 40px;
+  padding: 0.3rem;
 }
 
-.projects-list{
-    padding: 1rem 0rem;
+.footer-header {
+  color: white;
+  padding-bottom: 1.3rem;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
-.project-one,.blog-item{
-    max-width: 600px;
-    margin: auto;
-    padding-bottom: 1rem;
-    
+
+.projects-list {
+  padding: 1rem 0rem;
 }
-.main-link{
-    background-color: var(--main-color);
-    border-radius: 1rem; 
+.project-one,
+.blog-item {
+  max-width: 600px;
+  margin: auto;
+  padding-bottom: 1rem;
 }
-.secondary-link{
-    border: 2px solid var(--main-color);
-    border-radius: 1rem;
-    color: var(--main-color);
+.main-link {
+  background-color: var(--main-color);
+  border-radius: 1rem;
 }
-.links{
-    padding: 1rem 1rem 1rem 0rem;
+.secondary-link {
+  border: 2px solid var(--main-color);
+  border-radius: 1rem;
+  color: var(--main-color);
 }
-.project-two{
-    padding: 1rem 0rem;
+.links {
+  padding: 1rem 1rem 1rem 0rem;
 }
-.blog-item{
-    padding: 1rem 1rem;
+.project-two {
+  padding: 1rem 0rem;
+}
+.blog-item {
+  padding: 1rem 1rem;
 }

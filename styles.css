@@ -90,6 +90,9 @@ a {
   width: 100%;
   border-top-left-radius: 1rem;
 }
+.btnLayout {
+  padding: 1rem;
+}
 .ul,
 .li {
   display: inline;
@@ -120,11 +123,17 @@ a {
   background-color: var(--main-color);
   border-radius: 1rem;
 }
+.main-link:hover {
+  border: 2px solid var(--main-color);
+  border-radius: 1rem;
+  color: white;
+}
 .secondary-link {
   border: 2px solid var(--main-color);
   border-radius: 1rem;
   color: var(--main-color);
 }
+
 .links {
   padding: 1rem 1rem 1rem 0rem;
 }

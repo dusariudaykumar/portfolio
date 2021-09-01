@@ -122,16 +122,19 @@ a {
 .main-link {
   background-color: var(--main-color);
   border-radius: 1rem;
+  outline: none;
 }
 .main-link:hover {
   border: 2px solid var(--main-color);
   border-radius: 1rem;
   color: white;
+  outline: none;
 }
 .secondary-link {
   border: 2px solid var(--main-color);
   border-radius: 1rem;
   color: var(--main-color);
+  outline: none;
 }
 
 .links {
